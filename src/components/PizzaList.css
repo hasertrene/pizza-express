@@ -1,0 +1,47 @@
+.list{
+  display: flex;
+  flex-direction: column;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  left:2rem;
+}
+.pizzas ul{
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pizzas li{
+  margin:1rem;
+  padding:1rem;
+  width:25rem;
+  height:15rem;
+  border:1px solid rgb(194, 194, 194);
+  box-shadow:10px 10px 30px rgba(0,0,0,0.1);
+  background-image: url('https://www.koopmans.com/assets/_processed_/f/8/FebAUB');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.pizzas li button{
+  color:red;
+  border-radius: 100%;
+}
+.title{
+  font-weight: bold;
+  margin:1rem;
+}
+.description{
+  background-color:rgba(255,255,255,0.3);
+  margin:0 -1rem;
+  padding:0.5rem;
+}
+.ordered{
+  font-style: italic;
+  background-color:rgba(255,255,255,0.3);
+  margin:0 -1rem;
+}
